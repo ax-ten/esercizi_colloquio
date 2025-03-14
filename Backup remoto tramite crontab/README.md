@@ -2,9 +2,9 @@
 Questa cartella contiene uno script di backup in Bash e la configurazione di crontab per eseguire automaticamente il backup ogni domenica notte.
 
 
-`backup.sh`: Script che crea un backup della directory /home/user, lo comprime in un archivio ZIP, lo trasferisce su un server remoto, e rimuove il backup locale.
-`crontab`: La stringa di crontab che esegue il backup tramite backup.sh ogni domenica alle 2 di notte.
-`crontab_complete`: Il file di configurazione crontab completo inseribile direttamente nella configurazione crontab.
+- `/backup.sh`: Script che crea un backup della directory /home/user, lo comprime in un archivio ZIP, lo trasferisce su un server remoto, e rimuove il backup locale.
+- `/crontab`: La stringa di crontab che esegue il backup tramite backup.sh ogni domenica alle 2 di notte.
+- `/crontab_complete`: Il file di configurazione crontab completo inseribile direttamente nella configurazione crontab.
 
 
 ## Configurazione dell'autenticazione SSH
