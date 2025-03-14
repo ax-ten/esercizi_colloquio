@@ -1,0 +1,3 @@
+0 2 * * 0 zip -r /tmp/backup_$(date +\%Y-\%b-\%d).zip /home/user && scp /tmp/backup_$(date +\%Y-\%b-\%d).zip user@192.168.1.100:/backup && rm /tmp/backup_$(date +\%Y-\%b-\%d).zip
+
+
